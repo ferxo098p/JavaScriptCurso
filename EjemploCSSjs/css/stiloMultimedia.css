@@ -1,0 +1,86 @@
+body{
+	background-image: url("https://wallpaperfm.com/img/original/a/d/1/12708.jpg");
+	background-size: 1500px 760px;
+}
+
+.texto{
+	color: white;
+}
+
+.image{
+	width: 470px;
+	height: 250px;
+}
+
+#header{
+	height:13%;
+}
+
+#navegador{
+	/*background-color: lightgray;*/
+	height:13%;
+}
+
+#seccion{
+	position:relative;
+	height:55%;
+	width: 78%;
+	float: right;
+}
+
+#article{
+	height: 58%;
+}
+
+#article{
+	margin-top: 30px;
+	height: 95%;
+}
+
+#atomicBomb{
+	margin-left: 55px;
+}
+
+#anuncio{
+	margin-top: 100px;
+	width: 320px;
+}
+
+#btn_Regresar{
+	background-color: white;
+	margin-top: 50px;
+	margin-left: 120px;
+	font-size: 20px;
+}
+
+#btn_Regresar:hover{
+	opacity: 0.6;
+}
+
+#controles{
+	margin-top: 15px;
+	margin-left: 30px;
+	margin-right: 250px;
+	float: right;
+}
+
+.btn{
+	width: 100px;
+	height: 100px;
+}
+
+.btn:hover{
+	opacity: 0.6;
+}
+
+#btn_pause{
+	border-radius: 50px;
+}
+
+#btn_subVol{
+	border-radius: 50px;
+}
+
+#btn_dismVol{
+	border-radius: 50px;
+}

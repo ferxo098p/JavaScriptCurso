@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Multimedia</title>
+	<link rel="stylesheet" type="text/css" href="./css/stiloMultimedia.css">
+</head>
+<body>
+	<header id="header" class="texto">
+		<h1 id="titulo" align="center">Multimedia</h1>
+	</header>
+	<nav id="navegacion"></nav>
+	<section id="seccion">
+		<article id="article">
+			<img class="image" src="http://images4.fanpop.com/image/photos/20300000/Keep-Calm-the-killers-20301748-500-282.gif">
+			<img class="image" id="atomicBomb" src="https://thequest1.files.wordpress.com/2012/12/killers-miss-ab.jpg?w=812">
+			<video id="video1" src="videos/TheKillers_JustAnotherGirl.mp4" width="500px" height="300px"></video>
+			<table id="controles">
+				<tr>
+					<td><img src="iconos/play.png" class="btn" id="btn_play" onclick="play()"> </td>
+					<td><img src="iconos/pause.png" class="btn" id="btn_pause" onclick="pause()"></td>
+					<td><img src="iconos/mute.png" class="btn" id="btn_mute" onclick="silenciar()"></td>
+				</tr>
+			
+				<tr>
+					<td><img src="iconos/desmute.png" class="btn" id="btn_audio" onclick="sonido()"></td>
+					<td><img src="iconos/subVol.png" class="btn" id="btn_subVol" onclick="aumentarVolumen()"></td>
+					<td><img src="iconos/dismVol.png" class="btn" id="btn_dismVol" onclick="disminuirVolumen()"></td>
+				</tr>
+			</table>
+		</article>
+	</section>
+	<aside id="aside">
+		<img id="anuncio" src="https://pbs.twimg.com/media/DKBoTMjXoAAGxYm.jpg"/>
+		<input id="btn_Regresar" type="button" value="Regresar" onclick="volver()">
+	</aside>
+	<footer id="footer"></footer>
+	<script src="js/progMultimedia.js"></script>
+</body>
+</html>
