@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Canciones</title>
+	<link rel="stylesheet" type="text/css" href="./css/stiloCanciones.css">
+</head>
+<body>
+	<header id="header" class="texto">
+		<h1 id="titulo" align="center">Canciones</h1>
+	</header>
+	<nav id="navegacion">
+		<table align="center">
+			<tr>
+				<td>
+					<a href="Multimedia.html" class="pagina">MULTIMEDIA</a>
+					<a href="Canciones.html" class="pagina">CANCIONES</a>
+				</td>
+			</tr>
+		</table>
+	</nav>
+	<section id="seccion">
+		<article id="article" class="texto">
+			<br>
+			<center>
+				<table id="tabla">
+					<tr>
+						<td class="celda">Canción</td>
+						<td class="celda">Artista</td>
+						<td class="celda">Album</td>
+					</tr>
+
+					<tr>
+						<td class="celda">This River Is Wild</td>
+						<td class="celda">The Killers</td>
+						<td class="celda">Sam's Town</td>
+					</tr>
+
+					<tr>
+						<td class="celda">Just Another Girl</td>
+						<td class="celda">The Killers</td>
+						<td class="celda">Direct Hits</td>
+					</tr>
+
+					<tr>
+						<td class="celda">All These Things That I've Done</td>
+						<td class="celda">The Killers</td>
+						<td class="celda">Hot Fuss</td>
+					</tr>
+
+					<tr>
+						<td class="celda">Tyson vs Douglas</td>
+						<td class="celda">The Killers</td>
+						<td class="celda">Wonderful Wonderful</td>
+					</tr>
+				</table>
+			</center>
+		</article>
+
+		<article>
+			<br>
+			<form id="formulario">
+				<p class="formulario">Canción:<input type="text" id="lbl_Cancion"></p>
+				<p class="formulario">Artista:<input type="text" id="lbl_Artista"></p>
+				<p class="formulario">Album:<input type="text" id="lbl_Album"></p>
+				<table id="tbl_Btns">
+					<tr>
+						<td><input class="btn" type="button" value="Añadir fila" onclick="agregarFila()"></td>
+						<td><input class="btn" type="button" value="Eliminar fila" onclick="borrarFila()"></td>
+						<td><input class="btn" type="button" value="Limpiar" onclick="limpiarFormulario()"></td>
+					</tr>
+				</table>
+			</form>
+		</article>
+	</section>
+	<aside id="aside">
+		<img id="btn_Regresar" src="https://cdn.pixabay.com/photo/2013/07/13/11/42/back-158491_960_720.png" onclick="volver()">
+	</aside>
+	<footer id="footer" class="texto"></footer>
+	<script type="text/javascript" src="./js/progCanciones.js"></script>
+</body>
+</html>
