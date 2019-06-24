@@ -1,0 +1,101 @@
+body{
+	background-image: url("https://wallpaperplay.com/walls/full/4/5/b/57334.jpg");
+	background-size: 1500px 760px;
+}
+
+.texto{
+	color: white;
+}
+
+#header{
+	height:13%;
+}
+
+#navegador{
+	background-color: lightgray;
+	height:13%;
+}
+
+#seccion{
+	position:relative;
+	height:55%;
+	width: 78%;
+	float: right;
+}
+
+#article{
+	height: 58%;
+	margin-right: 250px;
+}
+
+#imagen1{
+	width: 700px;
+	height: 500px;
+	margin-left: 100px;
+	opacity: 0.9;
+}
+
+#aside{
+	width: 10%;
+	/*No va a tomar en cuenta el elemento anterior*/
+	float: left; 
+	height: 55%
+}
+
+#anuncio{
+	width: 300px;
+	height: 580px;
+}
+
+#footer{
+	/*Respetara los elementos como fueron declarados anteriormente*/
+	clear:both;
+}
+
+.pagina{
+	color: white;
+	background-color: gray;
+}
+
+.pagina:hover{
+	color: lightblue;
+	background-color: white;
+}
+
+#tabla{
+	width: 85%;
+	border: 1px solid white;
+	border-collapse: separate;
+}
+
+.celda{
+	width: 25%;
+	text-align: left;
+	border: 1px solid white;
+	background: gray;
+}
+
+#btn_Regresar{
+	width: 100px;
+	height: 100px;
+	margin-top: 50px;
+	margin-left: 120px;
+}
+
+#btn_Regresar:hover{
+	opacity: 0.6;
+}
+
+.formulario{
+	color: white;
+	font-weight: bold;
+	margin-left: 350px;
+}
+
+#tbl_Btns{
+	margin-left: 350px;
+}
+
+.btn:hover{
+	opacity: 0.6;
+}
