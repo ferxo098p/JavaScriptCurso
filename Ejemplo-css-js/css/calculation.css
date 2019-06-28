@@ -1,0 +1,66 @@
+.calculadora{
+	background-color: lightblue;	
+}
+
+body{
+	background-image: url(../images/space.jpg);	
+	background-size: 1700px 900px;
+}
+
+.btn{
+	background-color: white;
+	border-radius: 8px;
+	border: 2px solid #0016b0;
+	font-weight: 300;
+	font-size: 60px;
+	width:80px;
+    height:70px;
+}
+
+.btnOperacion{
+	background-color: green;
+	border-radius: 8px;
+	border: 2px solid #0016b0;
+	font-weight: 300;
+	font-size: 60px;
+	width:80px;
+    height:70px;
+}
+
+.btn:hover{
+    color: green;
+    background-color: lightgray;
+}
+
+.btnOperacion:hover{
+    color: red;
+    background-color: lightblue;
+    opacity: 0.6;
+}
+
+#clear{
+  	background-color: rgb(248, 151, 70);
+  	border-radius: 8px;
+	border: 2px solid #0016b0;
+	font-weight: 300;
+	font-size: 60px;
+	width:335px;
+    height:70px;
+}
+
+#clear:hover{
+  	opacity: 0.6;
+}
+
+#resultado{
+	display:block;
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 10px;
+	width:340px;
+	height: 100px;
+	line-height: 100px;
+	background-color:#fff;
+	border-radius: 25px;
+	/*overflow-y: scroll;*/
+  }
